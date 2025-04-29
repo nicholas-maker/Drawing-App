@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    gap: 1%;
+}
+
+.instruments {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: space-around;
+    width: 27px;
+    background-color: #F7CBCB;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.instrument:hover {
+    cursor: pointer;
+}
+
+#canvas {
+    border: 1px solid black;
+    width: 95vw;
+    height: 85vh;
+    border-radius: 30px;
+}
+
+.palitra {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E1E1E1;
+    border-radius: 30px;
+    height: 42px;
+    align-items: center;
+}
+
+.colors {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.colors:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#red {
+    background-color: #FF0037;
+}
+
+#yellow {
+    background-color: #FFF600;
+}
+
+#green {
+    background-color: #00FF00;
+}
+
+#salt {
+    background-color: #00FF99;
+}
+
+#blue {
+    background-color: #1100FF;
+}
+
+#cyan {
+    background-color: #0095FF;
+}
+
+#black {
+    background-color: black;
+}
+
+#white {
+    background-color: white;
+}
+
+#purple {
+    background-color: #7B00FF;
+}
+
+#orange {
+    background-color: #FF8800;
+}
+
+#brown {
+    background-color: #794520;
+}
+
+#pink {
+    background-color: #FF00C8;
+}
